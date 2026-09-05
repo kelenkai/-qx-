@@ -1,0 +1,48 @@
+# AppleIntelligence分流
+# Update 20260905
+
+# Siri 核心与生产接口
+DOMAIN-SUFFIX, api-siri-prod.apple.com
+DOMAIN-SUFFIX, guzzoni.apple.com
+DOMAIN-SUFFIX, siri.apple.com
+DOMAIN-SUFFIX, dispatcher.apple.com
+DOMAIN-SUFFIX, smoot.apple.com
+
+# 私有云计算与设备鉴权
+DOMAIN-SUFFIX, pcc.apple.com
+DOMAIN-SUFFIX, pcc-auth.apple.com
+DOMAIN-SUFFIX, fides.apple.com
+
+# 隐私中继与网络探测
+DOMAIN-SUFFIX, apple-dns.net
+DOMAIN-SUFFIX, mask.icloud.com
+DOMAIN-SUFFIX, mask-api.icloud.com
+DOMAIN-SUFFIX, mask-h2.icloud.com
+DOMAIN-SUFFIX, gateway.icloud.com
+DOMAIN-SUFFIX, ls.apple.com
+DOMAIN-SUFFIX, cp4.cloudflare.com
+DOMAIN-SUFFIX, cl4.apple.com
+DOMAIN-SUFFIX, cl5.apple.com
+
+# 模型资产与云端数据分发
+DOMAIN-SUFFIX, apps.mzstatic.com
+DOMAIN-SUFFIX, api.apple-cloudkit.com
+DOMAIN-SUFFIX, icloud-content.com
+DOMAIN-SUFFIX, push.apple.com
+
+# 第三方 AI 扩展联动
+DOMAIN-SUFFIX, gemini.google.com
+DOMAIN-SUFFIX, generativelanguage.googleapis.com
+DOMAIN-SUFFIX, proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX, openai.com
+DOMAIN-SUFFIX, chatgpt.com
+DOMAIN-SUFFIX, oaistatic.com
+DOMAIN-SUFFIX, oaiusercontent.com
+
+# 新增
+DOMAIN-SUFFIX, apple-relay.akamaized.net
+DOMAIN-SUFFIX, apple-relay.mask.apple-dns.net
+DOMAIN-SUFFIX, mask-api.fe.apple-dns.net
+DOMAIN-SUFFIX, mask-t.apple-dns.net
+DOMAIN-SUFFIX, mask.apple-dns.net
+DOMAIN-SUFFIX, apple-dns.net
