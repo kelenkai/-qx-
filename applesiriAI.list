@@ -30,14 +30,14 @@ DOMAIN-SUFFIX, api.apple-cloudkit.com
 DOMAIN-SUFFIX, icloud-content.com
 DOMAIN-SUFFIX, push.apple.com
 
-# 第三方 AI 扩展联动
-DOMAIN-SUFFIX, gemini.google.com
-DOMAIN-SUFFIX, generativelanguage.googleapis.com
-DOMAIN-SUFFIX, proactivebackend-pa.googleapis.com
-DOMAIN-SUFFIX, openai.com
-DOMAIN-SUFFIX, chatgpt.com
-DOMAIN-SUFFIX, oaistatic.com
-DOMAIN-SUFFIX, oaiusercontent.com
+## 第三方 AI 扩展联动
+#DOMAIN-SUFFIX, gemini.google.com
+#DOMAIN-SUFFIX, generativelanguage.googleapis.com
+#DOMAIN-SUFFIX, proactivebackend-pa.googleapis.com
+#DOMAIN-SUFFIX, openai.com
+#DOMAIN-SUFFIX, chatgpt.com
+#DOMAIN-SUFFIX, oaistatic.com
+#DOMAIN-SUFFIX, oaiusercontent.com
 
 # 新增
 DOMAIN-SUFFIX, apple-relay.akamaized.net
