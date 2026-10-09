@@ -1,30 +1,30 @@
-# AppleIntelligence分流
-# Update 20260905
+Apple Intelligence / Siri / Relay rules
 
-# Siri / Apple Intelligence
+Converted to Quantumult X
 
-host, gateway.icloud.com, PROXY
-host, seed.siri.apple.com, PROXY
-host, probe.icloud.com, PROXY
-host, metrics.icloud.com, PROXY
+Siri / Apple Intelligence
+
 host, guzzoni.apple.com, PROXY
-host-suffix, smoot.apple.com, PROXY
-
-# Apple Intelligence / Private Cloud Compute
-
-host, apple-relay.apple.com, PROXY
-host, apple-relay.cloudflare.com, PROXY
-host, apple-relay.fastly-edge.com, PROXY
-host, cp4.cloudflare.com, PROXY
-
-# Apple Intelligence relay / bootstrap
-
-host, apple-relay.mask.apple-dns.net, PROXY
+host, mask-api.fe.apple-dns.net, PROXY
 host, mask-api.icloud.com, PROXY
-host, mask-api.fe2.apple-dns.net, PROXY
-host, apple-relay.akamaized.net, PROXY
-host, apple-carry-relay.cloudflare.com, PROXY
+host, mask-t.apple-dns.net, PROXY
+host, mask.apple-dns.net, PROXY
+host-suffix, smoot.apple.com, PROXY
+host-keyword, siri, PROXY
 
-# Apple region determination
+Apple Intelligence / Private Cloud Compute / Relay
 
-host, gspe1-ssl.ls.apple.com, PROXY
+host-suffix, apple-relay.apple.com, PROXY
+host-suffix, apple-relay.cloudflare.com, PROXY
+host-suffix, apple-relay.fastly-edge.com, PROXY
+host-suffix, apple-relay.mask.apple-dns.net, PROXY
+host-suffix, cp4.cloudflare.com, PROXY
+
+Apple relay / iCloud
+
+host-suffix, gspe1-ssl.ls.apple.com, PROXY
+host-suffix, gateway.icloud.com, PROXY
+host-suffix, ls.apple.com, PROXY
+host-suffix, mask-h2.icloud.com, PROXY
+host-suffix, mask.icloud.com, PROXY
+host-suffix, apps.mzstatic.com, PROXY
