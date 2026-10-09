@@ -1,8 +1,8 @@
-Apple Intelligence / Siri / Relay rules
+#Apple Intelligence / Siri / Relay rules
 
-Converted to Quantumult X
+#Route these domains to a supported-region proxy group, such as a US node.
 
-Siri / Apple Intelligence
+#Siri / Apple Intelligence
 
 host, guzzoni.apple.com, PROXY
 host, mask-api.fe.apple-dns.net, PROXY
@@ -10,21 +10,15 @@ host, mask-api.icloud.com, PROXY
 host, mask-t.apple-dns.net, PROXY
 host, mask.apple-dns.net, PROXY
 host-suffix, smoot.apple.com, PROXY
-host-keyword, siri, PROXY
-
-Apple Intelligence / Private Cloud Compute / Relay
-
 host-suffix, apple-relay.apple.com, PROXY
 host-suffix, apple-relay.cloudflare.com, PROXY
 host-suffix, apple-relay.fastly-edge.com, PROXY
 host-suffix, apple-relay.mask.apple-dns.net, PROXY
 host-suffix, cp4.cloudflare.com, PROXY
-
-Apple relay / iCloud
-
 host-suffix, gspe1-ssl.ls.apple.com, PROXY
 host-suffix, gateway.icloud.com, PROXY
 host-suffix, ls.apple.com, PROXY
 host-suffix, mask-h2.icloud.com, PROXY
 host-suffix, mask.icloud.com, PROXY
 host-suffix, apps.mzstatic.com, PROXY
+host-keyword, siri, PROXY
